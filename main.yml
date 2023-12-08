@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+
+  roles:
+    - retronas_systems
+
+  tasks:
+    - debug:
+        msg: "{{ system_map }}"
